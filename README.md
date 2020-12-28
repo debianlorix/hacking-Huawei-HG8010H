@@ -5,7 +5,9 @@ I want to replace  my very hot SFP module with this ONT. The problem is that my 
 
 ![ONT authentication](https://i.ibb.co/KhG0h0P/Screenshot-2020-12-15-HG8010-H-1.png)
 
-The next step is open my ONT shell and found his NOR; 
+The next step is open my ONT shell, so I found his NOR that I can confirm is a Spansion S25FL128P flash memory, identical to @Logon84 ONT; to make a flash dump I will use a specific utility for this type of flash chips called "Flashrom". I already had a CH341A mini-programmer, a SOIC16 clip, I use the same of @Logon84:
 
-![NOR](https://www.kynix.com/Detail/794449/FL128SAIF01.html)
+![NOR schematics](https://github.com/logon84/Hacking_Huawei_HG8012H_ONT/blob/master/pics/8pickit2-pinout.jpg)
+
+Luckily, I had one of them, a Microchip Pickit2 that I had forgotten in a drawer. So, with the pinout of the chip extracted from the datasheet, and the router completely disconnected from the power source (the programmer powers the chip itself) I started connecting the programmer to the chip with  (Pomona 5252). The connection schematic is as follows:
 
