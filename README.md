@@ -9,11 +9,11 @@ The next step is open my ONT shell:
 
 ![ONT board ante](https://i.ibb.co/8MRtj6w/IMG-20201228-153427.jpg)
 
-![ONT board retro](https://i.ibb.co/8MRtj6w/IMG-20201228-153428.jpg)
+![ONT board retro](https://i.ibb.co/KLnZgny/IMG-20201228-153428.jpg)
 
 This is the NOR flash chip, I can confirm is a Spansion S25FL128P flash memory, identical to those of @Logon84 ONT:
 
-![8010H NOR](https://i.ibb.co/8MRtj6w/IMG-20201228-153429.jpg)
+![8010H NOR](https://i.ibb.co/gw2C9fM/IMG-20201228-153429.jpg)
 
 To make a flash dump I must use a specific utility for this type of flash chips called "Flashrom". I already had a CH341A mini-programmer, but only with a SOIC8 clip, so I bought a SOIC16 one, I use the same schematic posted by @Logon84:
 
