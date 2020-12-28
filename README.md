@@ -5,4 +5,4 @@ I want to replace  my very hot SFP module with this ONT. The problem is that my 
 
 ![ONT authentication](https://i.ibb.co/KhG0h0P/Screenshot-2020-12-15-HG8010-H-1.png)
 
-The next step is to open the shell on my ONT and found his *NOR*; 
+The next step is open my ONT shell and found his NOR; 
