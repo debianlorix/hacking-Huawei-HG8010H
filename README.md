@@ -3,3 +3,6 @@ Starting from the awesome guide of https://github.com/logon84/Hacking_Huawei_HG8
 
 I want to replace  my very hot SFP module with this ONT. The problem is that my ONT refuses to match with the OLT, it doesn't establish connection (my ONT continue to slowly blink the LOS green led), I suspect because the webui interface in the ONT configuration doesn't permit more than 10 digits in the SN module (my GPON SN has 16 digits).
 
+![ONT authentication](https://i.ibb.co/KhG0h0P/Screenshot-2020-12-15-HG8010-H-1.png)
+
+The next step is to open the shell on my ONT and found his *NOR*; 
