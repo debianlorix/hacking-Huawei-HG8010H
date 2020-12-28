@@ -5,7 +5,17 @@ I want to replace  my very hot SFP module with this ONT. The problem is that my 
 
 ![ONT authentication](https://i.ibb.co/KhG0h0P/Screenshot-2020-12-15-HG8010-H-1.png)
 
-The next step is open my ONT shell, so I found his NOR that I can confirm is a Spansion S25FL128P flash memory, identical to those of @Logon84 ONT; to make a flash dump I will use a specific utility for this type of flash chips called "Flashrom". I already had a CH341A mini-programmer, but only with a SOIC8 clip, so I bought a SOIC16 one, I use the same schematic posted by @Logon84:
+The next step is open my ONT shell: 
+
+![ONT board ante](https://i.ibb.co/8MRtj6w/IMG-20201228-153427.jpg)
+
+![ONT board retro](https://i.ibb.co/8MRtj6w/IMG-20201228-153428.jpg)
+
+This is the NOR flash chip, I can confirm is a Spansion S25FL128P flash memory, identical to those of @Logon84 ONT:
+
+![8010H NOR](https://i.ibb.co/8MRtj6w/IMG-20201228-153429.jpg)
+
+To make a flash dump I must use a specific utility for this type of flash chips called "Flashrom". I already had a CH341A mini-programmer, but only with a SOIC8 clip, so I bought a SOIC16 one, I use the same schematic posted by @Logon84:
 
 ![NOR schematics](https://github.com/logon84/Hacking_Huawei_HG8012H_ONT/blob/master/pics/8pickit2-pinout.jpg)
 
