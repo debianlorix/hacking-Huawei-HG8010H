@@ -19,7 +19,7 @@ To make a flash dump I must use a specific utility for this type of flash chips 
 
 ![NOR schematics](https://github.com/logon84/Hacking_Huawei_HG8012H_ONT/blob/master/pics/8pickit2-pinout.jpg)
 
-!!! SOLVED !!!
+#!!! SOLVED !!!#
 
 Using the credential:
 
